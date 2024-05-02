@@ -12,6 +12,7 @@ body {
     font-family: Fredoka;
     background-color: rgb(43, 43, 43);
     color: white;
+    text-align: center;
 }
 
 h1 {
@@ -24,16 +25,29 @@ h1 {
 
 a {
     color: rgb(255, 224, 45);
+    cursor: pointer;
 }
 
 .hoverbig {
     transform: scale(1);
     transform-origin: center;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease;
 }
 
 .hoverbig:hover {
+    transform: scale(1.05);
+    transform-origin: center;
+}
+
+.hoverbigbig {
+    transform: scale(1);
+    transform-origin: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.hoverbigbig:hover {
     transform: scale(1.1);
+    transform-origin: center;
 }
 
 .parent {
@@ -46,6 +60,11 @@ a {
     text-decoration: none;
 }
 
+.plaintext {
+    text-decoration: none;
+    color: white;
+}
+
 .textglow:hover {
     text-shadow: 0px 0px 5px;
 }
@@ -54,6 +73,19 @@ a {
     width: max-content;
     background-color: rgb(75, 75, 75);
     margin-top: 0.4%;
+    border-radius: 15px;
+    padding: 12px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.round {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.itembox {
+    width: max-content;
+    background-color: rgb(75, 75, 75);
     border-radius: 15px;
     padding: 12px;
     box-shadow: 0px 0px 20px black;
