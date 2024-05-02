@@ -10,8 +10,9 @@
 
 html {
     font-family: Fredoka;
-    margin-top: 1%;
+    margin-top: 0.5%;
     background-color: rgb(53, 53, 53);
+    color: white;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
 }
 
 a {
-    text-decoration: none;
+    color: rgb(255, 224, 45);
 }
 
 .hoverbig {
@@ -40,4 +41,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.nodeco {
+    text-decoration: none;
+}
+
+.textglow:hover {
+    text-shadow: 0px 0px 5px;
 }
